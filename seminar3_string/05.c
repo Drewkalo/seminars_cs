@@ -2,7 +2,7 @@
 
 int main()
 {
-    char a[100000002];
+    char a[100000000];
     scanf("%s", a);
     long long result = 0;
     int i = 0;
