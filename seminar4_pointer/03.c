@@ -1,15 +1,11 @@
 #include <stdio.h>
-void cube(float* px)
-{
+void cube(float* px) {
     *px = (*px) * (*px) * (*px);
     return;
 }
-int main()
-{
+int main() {
     float a;
-    float* p = &a;
     scanf("%f", &a);
-    printf("%.3f\n", a);
-    cube(p);
+    cube(&a);
     printf("%.3f", a);
 }
