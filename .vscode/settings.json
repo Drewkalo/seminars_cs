@@ -3,6 +3,15 @@
     "C_Cpp.default.compilerPath": "C:/msys64/ucrt64/bin/gcc.exe",
     "files.associations": {
         "cmath": "c",
-        "random": "c"
+        "random": "c",
+        "ostream": "cpp"
+    }
+}
+{
+    "terminal.integrated.env.windows": {
+        "PATH": "C:\\mingw64\\bin;${env:PATH}"
+    },
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ -std=c++20 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt"
     }
 }
