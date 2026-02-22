@@ -1,0 +1,4 @@
+Windows 11, g++, MinGW ucrt64
+
+1.g++ -c algebra.cpp geometry.cpp statistics.cpp
+2.ar rcs libmiptlib.a algebra.o geometry.o statistics.o

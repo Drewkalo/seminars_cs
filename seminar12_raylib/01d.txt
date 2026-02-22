@@ -1,0 +1,4 @@
+Windows 11, g++, MinGW ucrt64
+
+1.  g++ test.cpp -I./include -L./lib -lmiptlib
+2. Переместим файл в папку с библиотекой

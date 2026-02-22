@@ -1,0 +1,3 @@
+Windows 11, g++, MinGW ucrt64
+
+1.g++ -shared -o miptlib.dll -Wl,--out-implib,libmiptlib.dll.a algebra.cpp geometry.cpp statistics.cpp
